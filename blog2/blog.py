@@ -1,5 +1,6 @@
 from post import Post
 
+
 class Blog:
     def __init__(self, title, author):
         self.title = title
@@ -8,20 +9,16 @@ class Blog:
 
     def __repr__(self):
         return '{} by {} ({} post{})'.format(self.title,
-                                            self.author,
-                                            len(self.posts),
-                                            's' if len(self.posts) != 1 else ' ')
+                                             self.author,
+                                             len(self.posts),
+                                             's' if len(self.posts) != 1 else ' ')
 
-    def create(self,title,content):
-        self.posts.addendum(Post(title,content))
-    '''
+    def create_post(self, title, content):
+        self.posts.append(Post(title, content))
+
     def json(self):
         return {
             "title": self.title,
             "author": self.author,
-            "posts": self.post[]
-            }
-    '''
-
-
-
+            "posts": [post.json() for post in self.posts]
+        }

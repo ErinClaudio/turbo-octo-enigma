@@ -16,5 +16,5 @@ class BlogTest(TestCase):
         b2 = Blog('My Day', 'Rolf')
         b2.posts = ['test post', 'test 2']
 
-
         self.assertEqual(b.__repr__(), 'Test title by Test author (1 post )')
+
