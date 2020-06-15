@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="945eb84e-6875-45f0-8a1b-88c787c16bf3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/post.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/blog_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/unit/post_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/unit/post_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +32,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Nosetests for blog_test.BlogTest.test_repr">
+    <configuration name="Nosetests for blog_test.BlogTest.test_repr" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="blog2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;blog_test.BlogTest.test_repr&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Nosetests for post_test.PostTest" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="blog2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -50,8 +63,30 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Nosetests in bin" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="blog2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.Nosetests in bin" />
+      <item itemvalue="Python tests.Nosetests for post_test.PostTest" />
+      <item itemvalue="Python tests.Nosetests for blog_test.BlogTest.test_repr" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Nosetests for blog_test.BlogTest.test_repr" />
+        <item itemvalue="Python tests.Nosetests in bin" />
         <item itemvalue="Python tests.Nosetests for post_test.PostTest" />
       </list>
     </recent_temporary>
@@ -74,21 +109,25 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="20" y="23" key="#Illuminated_Cloud/74.-745.1366.745/0.23.1440.877@0.23.1440.877" timestamp="1592231629458" />
-    <state width="1403" height="200" key="GridCell.Tab.0.bottom" timestamp="1592233648461">
+    <state x="74" y="0" width="1283" height="900" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592234909710">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1403" height="200" key="GridCell.Tab.0.bottom/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1592233648461" />
-    <state width="1403" height="200" key="GridCell.Tab.0.center" timestamp="1592233648458">
+    <state x="74" y="0" width="1283" height="900" key="#com.intellij.execution.impl.EditConfigurationsDialog/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1592234909710" />
+    <state width="1403" height="325" key="GridCell.Tab.0.bottom" timestamp="1592237586793">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1403" height="200" key="GridCell.Tab.0.center/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1592233648458" />
-    <state width="1403" height="200" key="GridCell.Tab.0.left" timestamp="1592233648456">
+    <state width="1403" height="325" key="GridCell.Tab.0.bottom/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1592237586793" />
+    <state width="1403" height="325" key="GridCell.Tab.0.center" timestamp="1592237586790">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1403" height="200" key="GridCell.Tab.0.left/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1592233648456" />
-    <state width="1403" height="200" key="GridCell.Tab.0.right" timestamp="1592233648460">
+    <state width="1403" height="325" key="GridCell.Tab.0.center/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1592237586790" />
+    <state width="1403" height="325" key="GridCell.Tab.0.left" timestamp="1592237586789">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1403" height="200" key="GridCell.Tab.0.right/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1592233648460" />
+    <state width="1403" height="325" key="GridCell.Tab.0.left/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1592237586789" />
+    <state width="1403" height="325" key="GridCell.Tab.0.right" timestamp="1592237586792">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1403" height="325" key="GridCell.Tab.0.right/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1592237586792" />
   </component>
 </project>
