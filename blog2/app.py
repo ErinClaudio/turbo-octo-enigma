@@ -36,7 +36,7 @@ def print_blogs():
         print('- {}'.format(blog))
 
 
-def ask_create_blog(name_of_author, new_blog_title):
+def ask_create_blog():
     title = input('what would you like to title this blog post? ')
     author = input('what is your name? ')
 
@@ -46,11 +46,11 @@ def ask_create_blog(name_of_author, new_blog_title):
 def ask_read_blog():
     title = input('what is the blog you would like to read? ')
 
-    print_post(blogs[title])
+    print_posts(blogs[title])
 
 
 def print_posts(blog):
-    for post in blogs.posts:
+    for post in blog.posts:
         print_post(post)
 
 

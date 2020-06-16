@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="945eb84e-6875-45f0-8a1b-88c787c16bf3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/system/app_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/system/app_test.py" afterDir="false" />
@@ -31,8 +32,69 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python tests.Nosetests in bin2">
+  <component name="RunManager" selected="Python tests.Nosetests for app_test.AppTest.test_ask_create_blog">
+    <configuration name="Nosetests for app_test.AppTest.test_ask_create_blog" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="blog2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/system" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;app_test.AppTest.test_ask_create_blog&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests for app_test.AppTest.test_menu_calls_print_blogs" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="blog2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/system" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;app_test.AppTest.test_menu_calls_print_blogs&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests for app_test.AppTest.test_menu_prints_prompt" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="blog2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/system" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;app_test.AppTest.test_menu_prints_prompt&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests for app_test.AppTest.test_print_blogs" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="blog2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/system" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;app_test.AppTest.test_print_blogs&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Nosetests for post_test.PostTest" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="blog2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -48,45 +110,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Nosetests in bin" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <module name="blog2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Nosetests in bin2" type="tests" factoryName="Nosetests" temporary="true">
-      <module name="blog2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python tests.Nosetests for post_test.PostTest" />
-      <item itemvalue="Python tests.Nosetests in bin2" />
+      <item itemvalue="Python tests.Nosetests for app_test.AppTest.test_print_blogs" />
+      <item itemvalue="Python tests.Nosetests for app_test.AppTest.test_menu_prints_prompt" />
+      <item itemvalue="Python tests.Nosetests for app_test.AppTest.test_menu_calls_print_blogs" />
+      <item itemvalue="Python tests.Nosetests for app_test.AppTest.test_ask_create_blog" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Nosetests in bin2" />
-        <item itemvalue="Python tests.Nosetests in bin" />
+        <item itemvalue="Python tests.Nosetests for app_test.AppTest.test_ask_create_blog" />
+        <item itemvalue="Python tests.Nosetests for app_test.AppTest.test_print_blogs" />
+        <item itemvalue="Python tests.Nosetests for app_test.AppTest.test_menu_calls_print_blogs" />
         <item itemvalue="Python tests.Nosetests for post_test.PostTest" />
+        <item itemvalue="Python tests.Nosetests for app_test.AppTest.test_menu_prints_prompt" />
       </list>
     </recent_temporary>
   </component>
@@ -112,21 +149,29 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="74" y="0" width="1283" height="900" key="#com.intellij.execution.impl.EditConfigurationsDialog/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1592239308223" />
-    <state width="1403" height="221" key="GridCell.Tab.0.bottom" timestamp="1592248554852">
+    <state width="1403" height="246" key="GridCell.Tab.0.bottom" timestamp="1592332693066">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1403" height="221" key="GridCell.Tab.0.bottom/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1592248554852" />
-    <state width="1403" height="221" key="GridCell.Tab.0.center" timestamp="1592248554848">
+    <state width="1403" height="246" key="GridCell.Tab.0.bottom/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1592332693066" />
+    <state width="1403" height="246" key="GridCell.Tab.0.center" timestamp="1592332693063">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1403" height="221" key="GridCell.Tab.0.center/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1592248554848" />
-    <state width="1403" height="221" key="GridCell.Tab.0.left" timestamp="1592248554845">
+    <state width="1403" height="246" key="GridCell.Tab.0.center/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1592332693063" />
+    <state width="1403" height="246" key="GridCell.Tab.0.left" timestamp="1592332693062">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1403" height="221" key="GridCell.Tab.0.left/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1592248554845" />
-    <state width="1403" height="221" key="GridCell.Tab.0.right" timestamp="1592248554850">
+    <state width="1403" height="246" key="GridCell.Tab.0.left/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1592332693062" />
+    <state width="1403" height="246" key="GridCell.Tab.0.right" timestamp="1592332693064">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1403" height="221" key="GridCell.Tab.0.right/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1592248554850" />
+    <state width="1403" height="246" key="GridCell.Tab.0.right/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1592332693064" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1592324361489">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="0" key="SettingsEditor/74.-745.1366.745/0.0.1440.900@0.0.1440.900" timestamp="1592324361489" />
+    <state x="163" y="167" key="com.intellij.ide.util.TipDialog" timestamp="1592332904888">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="163" y="167" key="com.intellij.ide.util.TipDialog/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1592332904888" />
   </component>
 </project>
