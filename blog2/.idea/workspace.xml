@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="945eb84e-6875-45f0-8a1b-88c787c16bf3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/system/app_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/system/app_test.py" afterDir="false" />
@@ -34,7 +34,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python tests.Nosetests for app_test.AppTest.test_ask_create_blog">
+  <component name="RunManager" selected="Python tests.Nosetests for app_test.AppTest.test_ask_create_post">
     <configuration name="Nosetests for app_test.AppTest.test_ask_create_blog" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="blog2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -50,7 +50,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Nosetests for app_test.AppTest.test_menu_calls_print_blogs" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests for app_test.AppTest.test_ask_create_post" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="blog2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,11 +61,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;app_test.AppTest.test_menu_calls_print_blogs&quot;" />
+      <option name="_new_target" value="&quot;app_test.AppTest.test_ask_create_post&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Nosetests for app_test.AppTest.test_menu_prints_prompt" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests for app_test.AppTest.test_ask_read_blog" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="blog2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,11 +76,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;app_test.AppTest.test_menu_prints_prompt&quot;" />
+      <option name="_new_target" value="&quot;app_test.AppTest.test_ask_read_blog&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Nosetests for app_test.AppTest.test_print_blogs" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests for app_test.AppTest.test_print_post" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="blog2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -91,39 +91,39 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;app_test.AppTest.test_print_blogs&quot;" />
+      <option name="_new_target" value="&quot;app_test.AppTest.test_print_post&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Nosetests for post_test.PostTest" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests for app_test.AppTest.test_print_posts" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="blog2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/system" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;post_test.PostTest&quot;" />
+      <option name="_new_target" value="&quot;app_test.AppTest.test_print_posts&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Nosetests for post_test.PostTest" />
-      <item itemvalue="Python tests.Nosetests for app_test.AppTest.test_print_blogs" />
-      <item itemvalue="Python tests.Nosetests for app_test.AppTest.test_menu_prints_prompt" />
-      <item itemvalue="Python tests.Nosetests for app_test.AppTest.test_menu_calls_print_blogs" />
       <item itemvalue="Python tests.Nosetests for app_test.AppTest.test_ask_create_blog" />
+      <item itemvalue="Python tests.Nosetests for app_test.AppTest.test_ask_read_blog" />
+      <item itemvalue="Python tests.Nosetests for app_test.AppTest.test_print_posts" />
+      <item itemvalue="Python tests.Nosetests for app_test.AppTest.test_print_post" />
+      <item itemvalue="Python tests.Nosetests for app_test.AppTest.test_ask_create_post" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Nosetests for app_test.AppTest.test_ask_create_post" />
+        <item itemvalue="Python tests.Nosetests for app_test.AppTest.test_print_post" />
+        <item itemvalue="Python tests.Nosetests for app_test.AppTest.test_print_posts" />
+        <item itemvalue="Python tests.Nosetests for app_test.AppTest.test_ask_read_blog" />
         <item itemvalue="Python tests.Nosetests for app_test.AppTest.test_ask_create_blog" />
-        <item itemvalue="Python tests.Nosetests for app_test.AppTest.test_print_blogs" />
-        <item itemvalue="Python tests.Nosetests for app_test.AppTest.test_menu_calls_print_blogs" />
-        <item itemvalue="Python tests.Nosetests for post_test.PostTest" />
-        <item itemvalue="Python tests.Nosetests for app_test.AppTest.test_menu_prints_prompt" />
       </list>
     </recent_temporary>
   </component>
@@ -149,22 +149,26 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="74" y="0" width="1283" height="900" key="#com.intellij.execution.impl.EditConfigurationsDialog/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1592239308223" />
-    <state width="1403" height="246" key="GridCell.Tab.0.bottom" timestamp="1592332693066">
+    <state width="1403" height="124" key="GridCell.Tab.0.bottom" timestamp="1592337603583">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1403" height="246" key="GridCell.Tab.0.bottom/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1592332693066" />
-    <state width="1403" height="246" key="GridCell.Tab.0.center" timestamp="1592332693063">
+    <state width="1403" height="275" key="GridCell.Tab.0.bottom/74.-745.1366.745/0.0.1440.900@0.0.1440.900" timestamp="1592337454365" />
+    <state width="1403" height="124" key="GridCell.Tab.0.bottom/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1592337603583" />
+    <state width="1403" height="124" key="GridCell.Tab.0.center" timestamp="1592337603580">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1403" height="246" key="GridCell.Tab.0.center/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1592332693063" />
-    <state width="1403" height="246" key="GridCell.Tab.0.left" timestamp="1592332693062">
+    <state width="1403" height="275" key="GridCell.Tab.0.center/74.-745.1366.745/0.0.1440.900@0.0.1440.900" timestamp="1592337454359" />
+    <state width="1403" height="124" key="GridCell.Tab.0.center/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1592337603580" />
+    <state width="1403" height="124" key="GridCell.Tab.0.left" timestamp="1592337603579">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1403" height="246" key="GridCell.Tab.0.left/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1592332693062" />
-    <state width="1403" height="246" key="GridCell.Tab.0.right" timestamp="1592332693064">
+    <state width="1403" height="275" key="GridCell.Tab.0.left/74.-745.1366.745/0.0.1440.900@0.0.1440.900" timestamp="1592337454357" />
+    <state width="1403" height="124" key="GridCell.Tab.0.left/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1592337603579" />
+    <state width="1403" height="124" key="GridCell.Tab.0.right" timestamp="1592337603582">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1403" height="246" key="GridCell.Tab.0.right/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1592332693064" />
+    <state width="1403" height="275" key="GridCell.Tab.0.right/74.-745.1366.745/0.0.1440.900@0.0.1440.900" timestamp="1592337454361" />
+    <state width="1403" height="124" key="GridCell.Tab.0.right/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1592337603582" />
     <state x="0" y="0" key="SettingsEditor" timestamp="1592324361489">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

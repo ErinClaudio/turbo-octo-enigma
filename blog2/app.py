@@ -1,4 +1,7 @@
+from django.template.defaultfilters import title
+
 from blog import Blog
+
 
 MENU_PROMPT = 'Enter "c" to create a blog, "l" to list blogs, "r" to read one,"p" to create a post, or "q" to quit'
 POST_TEMPLATE = '''
@@ -59,6 +62,9 @@ def print_post(post):
 
 
 def ask_create_post():
-    requested_blog = input('what is the blog you would like to read? ')
-    # post title and post content
-    # create a new post specified in the title
+    blog_name = input('what is the name of the title you would like to write? ')
+    title = input('what is the title of your article ? ')
+    content = input('please write your content here. ')
+
+    blogs[blog_name].create_post(title, content)
+
