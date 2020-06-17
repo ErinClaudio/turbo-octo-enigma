@@ -10,15 +10,17 @@ class AppTest(TestCase):
         blog = Blog('Test', 'Test Author')
         app.blogs = {'Test': blog}
 
-    def test_menu_prints_prompt(self): #this test is stuck
-        with patch('builtins.input') as mocked_input:
+    def test_menu_prints_prompt(self):  # this test is stuck
+        with patch('builtins.input', return_value='q') as mocked_input:
             app.menu()
             mocked_input.assert_called_with(app.MENU_PROMPT)
 
-    def test_menu_calls_print_blogs(self):
-        with patch('app.print_blogs') as mocked_print_blogs:
-            with patch('builtins.input', return_value='q'): #return_value = 'q' what????
+    def test_menu_calls_print_blogs(self):  # find this one re-watch this section
+        with patch('builtins.input') as mocked_input:
+            with patch('app.print_blogs')as mocked_print_blogs:
+                mocked_input.side_effect = ('l', 'q')
                 app.menu()
+
                 mocked_print_blogs.assert_called()
 
     def test_print_blogs(self):
@@ -38,17 +40,16 @@ class AppTest(TestCase):
             with patch('app.print_posts') as mocked_print_posts:
                 app.ask_read_blog()
 
-                mocked_print_posts.assert_called_with(app.blogs['Test'])
+                mocked_print_posts.assert_called_with(app.blogs ['Test'])
 
     def test_print_posts(self):
-        blog = app.blogs['Test']
+        blog = app.blogs ['Test']
         blog.create_post('Test Post', 'Test Content')
-
 
         with patch('app.print_post') as mocked_print_post:
             app.print_posts(blog)
 
-            mocked_print_post.assert_called_with(blog.posts[0])
+            mocked_print_post.assert_called_with(blog.posts [0])
 
     def test_print_post(self):
         post = Post('Post title', 'Post Content')
@@ -63,16 +64,15 @@ Post Content
 
             mocked_print.assert_called_with(expected_print)
 
-    def test_ask_create_post(self):
-        blog = Blog('Test', 'Test Author')
-        app.blogs = {'Test': blog}
+    def test_ask_create_post(self):  # review this one hard
+        blog = app.blogs ['Test']
         with patch('builtins.input') as mocked_input:
             mocked_input.side_effect = ('Test', 'Test Title', 'Test Content')
 
             app.ask_create_post()
 
-            self.assertEqual(app.blogs['Test'].title, 'Test Title')
-            self.assertEqual(app.blogs['Test'].content, 'Test Content')
+            self.assertEqual(blog.posts [0].title, 'Test Title')
+            self.assertEqual(blog.posts [0].content, 'Test Content')
 
     def test_menu_calls_create_blog(self):
         with patch('builtins.input') as mocked_input:
@@ -82,32 +82,32 @@ Post Content
 
             self.assertIsNotNone(app.blogs['Test Create Blog'])
 
-    def test_menu_calls_print_blogs(self):
+    def test_menu_calls_print_blogs(self):  # error re-watch this one you do not understand this fully
         with patch('builtins.input') as mocked_input:
-            mocked_input.side_effect = ('l', 'Test Create Blog', 'Test Author', 'q')
+            with patch('app.print_blogs') as mocked_print_blogs:
+                mocked_input.side_effect = ('l', 'q')
+                app.menu()
 
-            app.menu()
+                mocked_print_blogs.assert_called()
 
-            self.assertIsNotNone(app.blogs['Test Create Blog'])
 
-    def test_menu_calls_ask_read_blog(self):
+
+    def test_menu_calls_ask_read_blog(self): #error re-watch this one also
         with patch('builtins.input') as mocked_input:
-            mocked_input.side_effect = ('r', 'Test Create Blog', 'Test Author', 'q')
+            with patch('app.ask_read_blog') as mocked_ask_read_blog:
+                mocked_input.side_effect = ('r', 'Test', 'q')
 
-            app.menu()
+                app.menu()
+
+                mocked_ask_read_blog.assert_called()
 
 
-    def test_menu_calls_ask_create_post(self):
+    def test_menu_calls_ask_create_post(self): #error right here dumbo
         with patch('builtins.input') as mocked_input:
-            mocked_input.side_effect = ('p', 'Test Create Blog', 'Test Author', 'q')
+            with patch('app.ask_create_post') as mocked_ask_create_post:
+                mocked_input.side_effect = ('p', 'Test', 'q')
 
-            app.menu()
+                app.menu()
 
-
-
-#    def test_ask_create_post(self):
-#        with patch('builtins.input') as mocked_input:
-#            mocked_input.side_effect =
-
-
+                mocked_ask_create_post.assert_called()
 
