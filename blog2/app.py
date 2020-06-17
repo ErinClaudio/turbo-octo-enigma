@@ -1,8 +1,6 @@
-from django.template.defaultfilters import title
-
 from blog import Blog
 
-
+blogs = dict()  # blog_name : blog_object
 MENU_PROMPT = 'Enter "c" to create a blog, "l" to list blogs, "r" to read one,"p" to create a post, or "q" to quit'
 POST_TEMPLATE = '''
 ---{}---
@@ -10,8 +8,6 @@ POST_TEMPLATE = '''
 {}
 
 '''
-
-blogs = dict()  # blog_name : blog_object
 
 
 def menu():

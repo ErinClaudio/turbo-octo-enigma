@@ -17,7 +17,7 @@ class AppTest(TestCase):
                 app.menu()
                 mocked_print_blogs.assert_called()
 
-    def test_print_blogs(self):  # THIS ONE IS STILL NOT WORKING
+    def test_print_blogs(self):
         blog = Blog('Test', 'Test Author')
         app.blogs = {'Test': blog}
         with patch('builtins.print') as mocked_print:
@@ -48,7 +48,7 @@ class AppTest(TestCase):
         with patch('app.print_post') as mocked_print_post:
             app.print_posts(blog)
 
-            mocked_print_post.assert_called_with(blog.posts[0])
+            mocked_print_post.assert_called_with(blog.posts [0])
 
     def test_print_post(self):
         post = Post('Post title', 'Post Content')
@@ -59,7 +59,7 @@ Post Content
 
 '''
         with patch('builtins.print') as mocked_print:
-            app. print_post(post)
+            app.print_post(post)
 
             mocked_print.assert_called_with(expected_print)
 
@@ -69,8 +69,7 @@ Post Content
         with patch('builtins.input') as mocked_input:
             mocked_input.side_effect = ('Test', 'Test Title', 'Test Content')
 
-            app. ask_create_post()
+            app.ask_create_post()
 
-            self.assertEqual(blog.posts[0].title, 'Test Title')
-            self.assertEqual(blog.posts[0].content, 'Test Content')
-
+            self.assertEqual(blog.posts [0].title, 'Test Title')
+            self.assertEqual(blog.posts [0].content, 'Test Content')
