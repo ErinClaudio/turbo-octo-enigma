@@ -11,17 +11,16 @@ class AppTest(TestCase):
         app.blogs = {'Test': blog}
 
     def test_menu_prints_prompt(self):  # this test is stuck
-        with patch('builtins.input', return_value='q') as mocked_input:
+        with patch('builtins.input') as mocked_input:
             app.menu()
             mocked_input.assert_called_with(app.MENU_PROMPT)
 
     def test_menu_calls_print_blogs(self):  # find this one re-watch this section
-        with patch('builtins.input') as mocked_input:
-            with patch('app.print_blogs')as mocked_print_blogs:
-                mocked_input.side_effect = ('l', 'q')
+        with patch('builtins.print') as mocked_print:
+            with patch('builtins.input', return_value='q'):
                 app.menu()
 
-                mocked_print_blogs.assert_called()
+                mocked_print.assert_called_with('- Test by Test Author (0 posts)')
 
     def test_print_blogs(self):
         with patch('builtins.print') as mocked_print:
@@ -40,7 +39,7 @@ class AppTest(TestCase):
             with patch('app.print_posts') as mocked_print_posts:
                 app.ask_read_blog()
 
-                mocked_print_posts.assert_called_with(app.blogs ['Test'])
+                mocked_print_posts.assert_called_with(app.blogs['Test'])
 
     def test_print_posts(self):
         blog = app.blogs ['Test']
@@ -65,14 +64,14 @@ Post Content
             mocked_print.assert_called_with(expected_print)
 
     def test_ask_create_post(self):  # review this one hard
-        blog = app.blogs ['Test']
+        blog = app.blogs['Test']
         with patch('builtins.input') as mocked_input:
             mocked_input.side_effect = ('Test', 'Test Title', 'Test Content')
 
             app.ask_create_post()
 
-            self.assertEqual(blog.posts [0].title, 'Test Title')
-            self.assertEqual(blog.posts [0].content, 'Test Content')
+            self.assertEqual(blog.posts[0].title, 'Test Title')
+            self.assertEqual(blog.posts[0].content, 'Test Content')
 
     def test_menu_calls_create_blog(self):
         with patch('builtins.input') as mocked_input:
